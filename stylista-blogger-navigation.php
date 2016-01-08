@@ -14,10 +14,6 @@
 
 require_once plugin_dir_path( __FILE__ ) . 'BloggerNavigation.php';
 
-function bootBloggerNavigation() {
-    $navigation = new BloggerNavigation();
-    $navigation->run();
-}
-
-add_action('init', 'bootBloggerNavigation', 500);
+$navigation = new BloggerNavigation();
+$navigation->run();
 
