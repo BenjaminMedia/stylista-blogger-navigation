@@ -1,0 +1,11 @@
+{
+  "name": "benjaminmedia/stylista-blogger-navigation",
+  "type": "wordpress-plugin",
+  "homepage": "https://github.com/BenjaminMedia/stylista-blogger-navigation",
+  "license": "GPLv3",
+  "description": "Shows the latest Stylista.dk Bloggers",
+  "keywords": ["Stylista.dk"],
+  "require": {
+    "composer/installers": "~1.0.6"
+  }
+}
