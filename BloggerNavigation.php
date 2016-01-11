@@ -56,14 +56,5 @@ class BloggerNavigation
         add_action('wp_enqueue_scripts', array($this, 'navigation_style'));
 
         add_action('wp_head', array($this,'navigation_builder'), 500);
-
-        //$this->filter_print();
-    }
-
-    function filter_print()
-    {
-        global $wp_filter;
-        print_r($wp_filter['wp_head']);
-//print_r( array_shift($wp_filter['wp_head']['40']));
     }
 }
