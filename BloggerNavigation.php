@@ -12,16 +12,12 @@ class BloggerNavigation
             'link' => 'http://acie.dk'
         ),
         array(
-            'name' => 'Rock Paper Dresses',
-            'link' => 'http://rockpaperdresses.com'
+            'name' => 'Rockpaperdresses',
+            'link' => 'http://rockpaperdresses.dk'
         ),
         array(
             'name' => 'Lily Silwer',
             'link' => 'http://lilysilwer.com'
-        ),
-        array(
-            'name' => 'Amanda Bugge',
-            'link' => 'http://amandabugge.dk'
         )
     );
 
