@@ -1,8 +1,7 @@
 .stylista-blogger-menu {
     display: block !important;
     background: #000;
-    margin-top: 2px;
-    border-top: 3px solid #5ba697;
+    border-top: 3px solid #f58f9a;
     position: static !important;
 }
 
@@ -17,15 +16,7 @@
 }
 
 .stylista-blogger-menu ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 10px;
-}
-
-.stylista-blogger-menu ul li a:hover {
-    color: #5ba697;
+    text-transform: uppercase;
     text-decoration: none;
 }
