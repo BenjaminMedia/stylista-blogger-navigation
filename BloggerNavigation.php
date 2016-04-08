@@ -18,6 +18,10 @@ class BloggerNavigation
         array(
             'name' => 'Lily Silwer',
             'link' => 'http://lilysilwer.com'
+        ),
+        array(
+            'name' => 'Miriams Blok',
+            'link' => 'http://www.miriamsblok.dk'
         )
     );
 
