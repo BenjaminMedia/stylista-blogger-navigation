@@ -22,6 +22,10 @@ class BloggerNavigation
         array(
             'name' => 'Miriams Blok',
             'link' => 'http://www.miriamsblok.dk'
+        ),
+        array(
+            'name' => 'Miss Jeanett',
+            'link' => 'http://missjeanett.dk'
         )
     );
 
