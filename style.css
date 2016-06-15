@@ -1,8 +1,11 @@
-.stylista-blogger-menu {
-    display: block !important;
-    background: #000;
-    border-top: 3px solid #f58f9a;
-    position: static !important;
+.stylista-blogger-menu .menu-container{
+    border-top: 0 !important;
+}
+
+.stylista-blogger-menu .menu-container .menu-desktop {
+	max-width: 100% !important;
+	display: block !important;
+	position: static !important;
 }
 
 .stylista-blogger-menu ul {

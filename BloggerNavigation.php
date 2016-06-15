@@ -16,10 +16,6 @@ class BloggerNavigation
             'link' => 'http://rockpaperdresses.dk'
         ),
         array(
-            'name' => 'Lily Silwer',
-            'link' => 'http://lilysilwer.com'
-        ),
-        array(
             'name' => 'Miriams Blok',
             'link' => 'http://www.miriamsblok.dk'
         ),
@@ -36,14 +32,21 @@ class BloggerNavigation
     function navigation_builder(){
         $navigation =
 
-        '<div class="container menu-desktop-subnav stylista-blogger-menu">
-        <ul>';
+        '<div class="bonnier-wrapper stylista-blogger-menu">
+            <div class="container menu-container">
+                <div class="menu-horizontal-dropdown">
+                    <nav>
+                        <ul class="menu-desktop menu-desktop-subnav">';
 
-        foreach ($this->bloggers as $blog) {
-            $navigation .= "<li><a href='" . $blog['link'] . "' target='_blank' title='" . $blog['name'] . "'>" . $blog['name'] . "</a></li>";
-        }
+                            foreach ($this->bloggers as $blog) {
+                                $navigation .= "<li><a href='" . $blog['link'] . "' target='_blank' title='" . $blog['name'] . "'>" . $blog['name'] . "</a></li>";
+                            }
 
-        $navigation .= '</ul>
+        $navigation .=
+                        '</ul>
+                    </nav>
+                </div>
+            </div>
         </div>';
         
         echo  $navigation;
