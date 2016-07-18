@@ -4,6 +4,10 @@ class BloggerNavigation
 {
     var $bloggers = array(
         array(
+            'name' => 'Sarah Louise',
+            'link' => 'http://sarahlouise.dk'
+        ),
+        array(
             'name' => 'Twinpeaks',
             'link' => 'http://twinpeaks.dk'
         ),
