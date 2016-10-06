@@ -8,10 +8,6 @@ class BloggerNavigation
             'link' => 'http://sarahlouise.dk'
         ),
         array(
-            'name' => 'Twinpeaks',
-            'link' => 'http://twinpeaks.dk'
-        ),
-        array(
             'name' => 'Acie',
             'link' => 'http://acie.dk'
         ),
@@ -20,12 +16,12 @@ class BloggerNavigation
             'link' => 'http://rockpaperdresses.dk'
         ),
         array(
-            'name' => 'Miriams Blok',
-            'link' => 'http://www.miriamsblok.dk'
-        ),
-        array(
             'name' => 'Miss Jeanett',
             'link' => 'http://missjeanett.dk'
+        ),
+        array(
+            'name' => 'Simply Fit',
+            'link' => 'http://simplyfit.dk/'
         )
     );
 
