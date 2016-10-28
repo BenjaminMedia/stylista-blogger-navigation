@@ -58,19 +58,10 @@ class BloggerNavigation
         wp_enqueue_style('stylista-navigation', plugin_dir_url(__FILE__) . 'style.css', array(), 1.0, 'all');
     }
 
-    function addNavigationBanner(){
-        $script = "<script>
-            $('.container.header-container .row').append('<div class=\"col-sm-5 hidden-xs gutter-top responsive-images\" data-banner-md-lg=\"\"><div class=\"pull-right abo-banner text-center\"<div class=\"banner-min-height banner gtm-banner\" id=\"abo-banner\" data-banner-code=\"\" data-banner-target=\"false\" id=\"banner-687151212\"></div></div></div>');
-            EAS_load_fif('abo-banner', '".get_home_url()."/emediate/EAS_fif.html', 'http://eas4.emediate.eu/eas?cu=46602;cre=mu;js=y;', 0, 0);
-        </script>";
-        echo $script;
-    }
-
     function run()
     {
         add_action('wp_enqueue_scripts', array($this, 'navigation_style'));
 
         add_action('wp_head', array($this,'navigation_builder'), 500);
-        add_action('wp_footer', array($this,'addNavigationBanner'), 500);
     }
 }
